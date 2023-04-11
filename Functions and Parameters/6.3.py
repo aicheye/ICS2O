@@ -4,7 +4,7 @@ import math
 
 
 # Function to reset the turtle
-def reset(x=0, y=0):
+def reset(x=0.0, y=0.0):
     turtle.penup()
     turtle.goto(x, y)
     turtle.pendown()
